@@ -2,7 +2,7 @@
 #int function converts a numeric string to a number
 day = int(input('please enter Day (0-6)?'))
 day = int(day)
-if day <= 0 and int(day) >= 6:
+if day <= 0 and day >= 6:
     print('Please Enter 0-6')
 elif int(day) == 0:
     print('Sunday')
