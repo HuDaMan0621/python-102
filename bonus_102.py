@@ -7,9 +7,11 @@
 print('Please enter First pet\'s name: ')
 print('Street you grew up on')
 print('An adjective')
-info = f'First pet\'s name: {input()}, Street you grew up on: {input()}, An Adjective: {input()} '
+info = f'First pet\'s name: {input()}, Street you grew up on: {input()}, An Adjective: {input()} ' #using 1 variable, this is the way to do it. 
 
-print (info)
+print (info)#print the variable 
+
+
 '''
 info = input ('An adjective: ')
 print (info)
